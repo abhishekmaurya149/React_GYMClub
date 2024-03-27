@@ -84,3 +84,19 @@
     color: var(--gray);
     text-transform: uppercase;
 }
+
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+.hero-buttons>:nth-child(1){
+    color: #fff;
+    background-color: var(--orange);
+}
+.hero-buttons>:nth-child(2){
+    color: #fff;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid var(--orange);
+}
