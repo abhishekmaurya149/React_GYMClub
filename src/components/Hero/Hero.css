@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+.hero-blur{
+    width: 22rem;height: 30rem;left: 0;
+}
 
 .left-h{
     padding: 2rem;
@@ -116,7 +119,7 @@
     background-color: var(--darkGrey);
     width: fit-content;
     padding: 1rem;
-    align-items: start;
+    /* align-items: start; */
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -144,10 +147,10 @@
     width: 23rem;
 }    
 
-.hero-mage-back{
-    position: absolute; top: 10rem; 
-    right: 8rem;z-index: -1;
-    width: 15rem;
+.hero-image-back{
+    position: absolute; top: 2rem; 
+    right: 20rem; z-index: -1;
+    width: 15rem !important;
 }
 
 .calories{
@@ -178,3 +181,7 @@
 .calories>div>:nth-child(1){
     color: var(--gray);
 }
+.calories>div>:nth-child(2){
+    color:#fff;
+    font-size: 1.5rem;
+} 

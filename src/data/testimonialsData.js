@@ -1,14 +1,14 @@
-import image1 from "../assets/t-image1.png";
-import image2 from "../assets/t-image2.jpg";
-import image3 from "../assets/t-image3.jpg";
+import image2 from "../assets/T-image2.jpg";
+import image3 from "../assets/T-image3.jpg";
+import image1 from "../assets/T-image1.png";
 
 export const testimonialsData = [
   {
     image: image1,
     review:
       "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already Achieved my ideal body!",
-    name: 'MATHEW HENDRICKSON',
-    status : 'ENTREPRENEUR'
+    name: ' MATHEW HENDRICKSON ',
+    status : ' ENTREPRENEUR '
   },
   {
     image: image2,

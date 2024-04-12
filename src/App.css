@@ -47,3 +47,14 @@
 .btn:hover{
   cursor: pointer;
 }
+.blur{
+  background: #f59734;
+  position: absolute;
+  filter: blur(150px);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-filter: blur(150px);
+} 
